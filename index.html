@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Carousel</title>
+    <link rel="stylesheet" href="./carousel.css">
+  </head>
+  <body>
+    <div id="carousel">
+      <img id="back-button" class="nav" src="./assets/outline_arrow_back_black_24dp.png" alt="Back Arrow">
+      <div id="frame-container">
+        <div id="frame" data-translate='0'>
+          <span>
+            <img src="./assets/dog-yellow-flowers.jpg" alt="Dog in front of yellow flowers">
+          </span>
+          <span>
+            <img src="./assets/puppy_dog_muzzle_cute_114686_1280x720.jpg" alt="Puppy Dog">
+          </span>
+          <span>
+            <img src="./assets/ws_Sleeping_dog_1280x720.jpg" alt="Sleeping Dog">
+          </span>
+          <span>
+            <img src="./assets/dog_looking_up-1280x720.jpg" alt="Dog Looking Up">
+          </span>
+        </div>
+      </div>
+      <img id="forward-button" class="nav" src="./assets/outline_arrow_forward_black_24dp.png" alt="Forward Arrow">
+    </div>
+    <div id="nav-circles">
+      <div data-translate='0' class="nav"></div>
+      <div data-translate='-110' class="nav"></div>
+      <div data-translate='-220' class="nav"></div>
+      <div data-translate='-330' class="nav"></div>
+    </div>
+    <script src="./carousel.js"></script>
+  </body>
+</html>
