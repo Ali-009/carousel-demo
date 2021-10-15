@@ -46,6 +46,7 @@ navCircles.forEach(element => element.addEventListener('click',
    circleTranslation = parseInt(e.target.dataset.translate);
 
    frameElement.style.transform = `translate(${circleTranslation}%)`;
+   frameElement.dataset.translate = circleTranslation;
 
    clearNavCircles();
    e.target.style.backgroundColor = 'black';
